@@ -24,14 +24,18 @@ Includes:
 
 ### Setup & Build
 
+Run the following commands inside the DOS emulator:
+
     mount s /PATH/TO/ASSEMBLY-CHESS
     s:
     cd CHESS
     path ../TASM
     tasm chess.asm
     tlink chess.obj
-    chess
 
+Now you can play by simply running:
+
+    chess
 ---
 
 ## How to Play
