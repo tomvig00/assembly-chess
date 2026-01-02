@@ -1,5 +1,5 @@
-# Chess in x86 Assembly ♟️
-**With AI. In real-mode DOS. For some reason.**
+# Chess in x86 Assembly
+With AI. In real-mode DOS. For some reason.
 
 ![Screenshot](assets/screenshot-main.jpeg)
 
