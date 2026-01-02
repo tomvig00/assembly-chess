@@ -1,4 +1,4 @@
-dseg	segment ;Note: There is some old code in the form of comments. I feel bad deleting it.
+dseg	segment ;Note: There is some old code in the form of comments.
 	sqSize	=	60	; game square size
 	yMin	=	0	; completely unecessery, but doesnt really make a diffrence, more readable perhaps?
 	xMin	=	0	; completely unecessery, but doesnt really make a diffrence, more readable perhaps?
@@ -819,7 +819,7 @@ assume	cs:cseg, ds:dseg
 			sub si, enPass
 			cmp si, 1
 			jz wPassL
-			cmp si, 0ffffh ;basically minus 1 (weird obvious comments like that exist because at the time i wasnt aware of negative numbers in assembly)
+			cmp si, 0ffffh ;minus 1
 			jz wPassR
 			add si, enPass
 			sub si, bx
